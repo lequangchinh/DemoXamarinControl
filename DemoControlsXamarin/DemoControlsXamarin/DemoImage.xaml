@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoControlsXamarin.DemoImage"
+             Title="Demo Image">
+    <ContentPage.Content>
+            <StackLayout Spacing="1">
+                <Button Text="Demo Local Image"
+                    Clicked="OnDemoLocalImageButtonClicked"/>
+                <Button Text="Demo Embedded images"
+                    Clicked="OnDemoEmbeddedImageButtonClicked"/>
+                <Button Text="Downloading Images"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

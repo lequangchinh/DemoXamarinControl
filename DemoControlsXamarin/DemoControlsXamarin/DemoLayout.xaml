@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoControlsXamarin.DemoLayout"
+             Title="Demo Layout">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout HeightRequest="150"
+                         BackgroundColor="Red">
+                
+            </StackLayout>
+            <StackLayout HeightRequest="150"
+                         BackgroundColor="Blue"
+                         Orientation="Horizontal"
+                         Spacing="0">
+                <StackLayout WidthRequest="100"
+                             BackgroundColor="Brown">
+
+                </StackLayout>
+                <StackLayout WidthRequest="100"
+                             BackgroundColor="Gray">
+
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
